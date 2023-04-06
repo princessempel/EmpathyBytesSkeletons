@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE34A5129DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A5029DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift */; };
+		BCE34A5329DF21BD00BDB95D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A5229DF21BD00BDB95D /* ContentView.swift */; };
+		BCE34A5529DF21C000BDB95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE34A5429DF21C000BDB95D /* Assets.xcassets */; };
+		BCE34A5829DF21C000BDB95D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE34A5729DF21C000BDB95D /* Preview Assets.xcassets */; };
+		BCE34A6229DF21C100BDB95D /* EmpathyBytesSkeletonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A6129DF21C100BDB95D /* EmpathyBytesSkeletonsTests.swift */; };
+		BCE34A6C29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A6B29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.swift */; };
+		BCE34A6E29DF21C100BDB95D /* EmpathyBytesSkeletonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A6D29DF21C100BDB95D /* EmpathyBytesSkeletonsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE34A5E29DF21C100BDB95D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE34A4529DF21BD00BDB95D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE34A4C29DF21BD00BDB95D;
+			remoteInfo = EmpathyBytesSkeletons;
+		};
+		BCE34A6829DF21C100BDB95D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE34A4529DF21BD00BDB95D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE34A4C29DF21BD00BDB95D;
+			remoteInfo = EmpathyBytesSkeletons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE34A4D29DF21BD00BDB95D /* EmpathyBytesSkeletons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpathyBytesSkeletons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE34A5029DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesSkeletonsApp.swift; sourceTree = "<group>"; };
+		BCE34A5229DF21BD00BDB95D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCE34A5429DF21C000BDB95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE34A5729DF21C000BDB95D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCE34A5D29DF21C100BDB95D /* EmpathyBytesSkeletonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpathyBytesSkeletonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE34A6129DF21C100BDB95D /* EmpathyBytesSkeletonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesSkeletonsTests.swift; sourceTree = "<group>"; };
+		BCE34A6729DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpathyBytesSkeletonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE34A6B29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesSkeletonsUITests.swift; sourceTree = "<group>"; };
+		BCE34A6D29DF21C100BDB95D /* EmpathyBytesSkeletonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesSkeletonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE34A4A29DF21BD00BDB95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE34A5A29DF21C100BDB95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE34A6429DF21C100BDB95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE34A4429DF21BD00BDB95D = {
+			isa = PBXGroup;
+			children = (
+				BCE34A4F29DF21BD00BDB95D /* EmpathyBytesSkeletons */,
+				BCE34A6029DF21C100BDB95D /* EmpathyBytesSkeletonsTests */,
+				BCE34A6A29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests */,
+				BCE34A4E29DF21BD00BDB95D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE34A4E29DF21BD00BDB95D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE34A4D29DF21BD00BDB95D /* EmpathyBytesSkeletons.app */,
+				BCE34A5D29DF21C100BDB95D /* EmpathyBytesSkeletonsTests.xctest */,
+				BCE34A6729DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE34A4F29DF21BD00BDB95D /* EmpathyBytesSkeletons */ = {
+			isa = PBXGroup;
+			children = (
+				BCE34A5029DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift */,
+				BCE34A5229DF21BD00BDB95D /* ContentView.swift */,
+				BCE34A5429DF21C000BDB95D /* Assets.xcassets */,
+				BCE34A5629DF21C000BDB95D /* Preview Content */,
+			);
+			path = EmpathyBytesSkeletons;
+			sourceTree = "<group>";
+		};
+		BCE34A5629DF21C000BDB95D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCE34A5729DF21C000BDB95D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCE34A6029DF21C100BDB95D /* EmpathyBytesSkeletonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE34A6129DF21C100BDB95D /* EmpathyBytesSkeletonsTests.swift */,
+			);
+			path = EmpathyBytesSkeletonsTests;
+			sourceTree = "<group>";
+		};
+		BCE34A6A29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE34A6B29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.swift */,
+				BCE34A6D29DF21C100BDB95D /* EmpathyBytesSkeletonsUITestsLaunchTests.swift */,
+			);
+			path = EmpathyBytesSkeletonsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE34A4C29DF21BD00BDB95D /* EmpathyBytesSkeletons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE34A7129DF21C100BDB95D /* Build configuration list for PBXNativeTarget "EmpathyBytesSkeletons" */;
+			buildPhases = (
+				BCE34A4929DF21BD00BDB95D /* Sources */,
+				BCE34A4A29DF21BD00BDB95D /* Frameworks */,
+				BCE34A4B29DF21BD00BDB95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpathyBytesSkeletons;
+			productName = EmpathyBytesSkeletons;
+			productReference = BCE34A4D29DF21BD00BDB95D /* EmpathyBytesSkeletons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE34A5C29DF21C100BDB95D /* EmpathyBytesSkeletonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE34A7429DF21C100BDB95D /* Build configuration list for PBXNativeTarget "EmpathyBytesSkeletonsTests" */;
+			buildPhases = (
+				BCE34A5929DF21C100BDB95D /* Sources */,
+				BCE34A5A29DF21C100BDB95D /* Frameworks */,
+				BCE34A5B29DF21C100BDB95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE34A5F29DF21C100BDB95D /* PBXTargetDependency */,
+			);
+			name = EmpathyBytesSkeletonsTests;
+			productName = EmpathyBytesSkeletonsTests;
+			productReference = BCE34A5D29DF21C100BDB95D /* EmpathyBytesSkeletonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE34A6629DF21C100BDB95D /* EmpathyBytesSkeletonsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE34A7729DF21C100BDB95D /* Build configuration list for PBXNativeTarget "EmpathyBytesSkeletonsUITests" */;
+			buildPhases = (
+				BCE34A6329DF21C100BDB95D /* Sources */,
+				BCE34A6429DF21C100BDB95D /* Frameworks */,
+				BCE34A6529DF21C100BDB95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE34A6929DF21C100BDB95D /* PBXTargetDependency */,
+			);
+			name = EmpathyBytesSkeletonsUITests;
+			productName = EmpathyBytesSkeletonsUITests;
+			productReference = BCE34A6729DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE34A4529DF21BD00BDB95D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BCE34A4C29DF21BD00BDB95D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BCE34A5C29DF21C100BDB95D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BCE34A4C29DF21BD00BDB95D;
+					};
+					BCE34A6629DF21C100BDB95D = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BCE34A4C29DF21BD00BDB95D;
+					};
+				};
+			};
+			buildConfigurationList = BCE34A4829DF21BD00BDB95D /* Build configuration list for PBXProject "EmpathyBytesSkeletons" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE34A4429DF21BD00BDB95D;
+			productRefGroup = BCE34A4E29DF21BD00BDB95D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE34A4C29DF21BD00BDB95D /* EmpathyBytesSkeletons */,
+				BCE34A5C29DF21C100BDB95D /* EmpathyBytesSkeletonsTests */,
+				BCE34A6629DF21C100BDB95D /* EmpathyBytesSkeletonsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE34A4B29DF21BD00BDB95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE34A5829DF21C000BDB95D /* Preview Assets.xcassets in Resources */,
+				BCE34A5529DF21C000BDB95D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE34A5B29DF21C100BDB95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE34A6529DF21C100BDB95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE34A4929DF21BD00BDB95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE34A5329DF21BD00BDB95D /* ContentView.swift in Sources */,
+				BCE34A5129DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE34A5929DF21C100BDB95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE34A6229DF21C100BDB95D /* EmpathyBytesSkeletonsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE34A6329DF21C100BDB95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE34A6E29DF21C100BDB95D /* EmpathyBytesSkeletonsUITestsLaunchTests.swift in Sources */,
+				BCE34A6C29DF21C100BDB95D /* EmpathyBytesSkeletonsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE34A5F29DF21C100BDB95D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE34A4C29DF21BD00BDB95D /* EmpathyBytesSkeletons */;
+			targetProxy = BCE34A5E29DF21C100BDB95D /* PBXContainerItemProxy */;
+		};
+		BCE34A6929DF21C100BDB95D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE34A4C29DF21BD00BDB95D /* EmpathyBytesSkeletons */;
+			targetProxy = BCE34A6829DF21C100BDB95D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCE34A6F29DF21C100BDB95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCE34A7029DF21C100BDB95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE34A7229DF21C100BDB95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmpathyBytesSkeletons/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmpathyBytesSkeletons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE34A7329DF21C100BDB95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmpathyBytesSkeletons/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmpathyBytesSkeletons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCE34A7529DF21C100BDB95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmpathyBytesSkeletonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmpathyBytesSkeletons.app/EmpathyBytesSkeletons";
+			};
+			name = Debug;
+		};
+		BCE34A7629DF21C100BDB95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmpathyBytesSkeletonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmpathyBytesSkeletons.app/EmpathyBytesSkeletons";
+			};
+			name = Release;
+		};
+		BCE34A7829DF21C100BDB95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmpathyBytesSkeletonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmpathyBytesSkeletons;
+			};
+			name = Debug;
+		};
+		BCE34A7929DF21C100BDB95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.EmpathyBytesSkeletonsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmpathyBytesSkeletons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE34A4829DF21BD00BDB95D /* Build configuration list for PBXProject "EmpathyBytesSkeletons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE34A6F29DF21C100BDB95D /* Debug */,
+				BCE34A7029DF21C100BDB95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE34A7129DF21C100BDB95D /* Build configuration list for PBXNativeTarget "EmpathyBytesSkeletons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE34A7229DF21C100BDB95D /* Debug */,
+				BCE34A7329DF21C100BDB95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE34A7429DF21C100BDB95D /* Build configuration list for PBXNativeTarget "EmpathyBytesSkeletonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE34A7529DF21C100BDB95D /* Debug */,
+				BCE34A7629DF21C100BDB95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE34A7729DF21C100BDB95D /* Build configuration list for PBXNativeTarget "EmpathyBytesSkeletonsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE34A7829DF21C100BDB95D /* Debug */,
+				BCE34A7929DF21C100BDB95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE34A4529DF21BD00BDB95D /* Project object */;
+}
