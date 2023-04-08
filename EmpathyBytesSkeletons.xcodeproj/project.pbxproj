@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCC3135C29DF41190015E20D /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3135B29DF41190015E20D /* BottomNavBar.swift */; };
+		BCC3135F29DF42530015E20D /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3135E29DF42530015E20D /* ViewA.swift */; };
+		BCC3136229DF42620015E20D /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3136129DF42620015E20D /* ViewB.swift */; };
+		BCC3136829DF508B0015E20D /* interviewData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC3136429DF508B0015E20D /* interviewData.json */; };
+		BCC3136929DF508B0015E20D /* ARModelData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC3136529DF508B0015E20D /* ARModelData.json */; };
+		BCC3136A29DF508B0015E20D /* teamMemberData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC3136629DF508B0015E20D /* teamMemberData.json */; };
+		BCC3136B29DF508B0015E20D /* collectionData.json in Resources */ = {isa = PBXBuildFile; fileRef = BCC3136729DF508B0015E20D /* collectionData.json */; };
 		BCE34A5129DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A5029DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift */; };
 		BCE34A5329DF21BD00BDB95D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE34A5229DF21BD00BDB95D /* ContentView.swift */; };
 		BCE34A5529DF21C000BDB95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE34A5429DF21C000BDB95D /* Assets.xcassets */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCC3135B29DF41190015E20D /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		BCC3135E29DF42530015E20D /* ViewA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		BCC3136129DF42620015E20D /* ViewB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		BCC3136429DF508B0015E20D /* interviewData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = interviewData.json; sourceTree = "<group>"; };
+		BCC3136529DF508B0015E20D /* ARModelData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ARModelData.json; sourceTree = "<group>"; };
+		BCC3136629DF508B0015E20D /* teamMemberData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teamMemberData.json; sourceTree = "<group>"; };
+		BCC3136729DF508B0015E20D /* collectionData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collectionData.json; sourceTree = "<group>"; };
 		BCE34A4D29DF21BD00BDB95D /* EmpathyBytesSkeletons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpathyBytesSkeletons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE34A5029DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpathyBytesSkeletonsApp.swift; sourceTree = "<group>"; };
 		BCE34A5229DF21BD00BDB95D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +85,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCC3135D29DF41EA0015E20D /* Bottom Nav Bar */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3135B29DF41190015E20D /* BottomNavBar.swift */,
+				BCC3135E29DF42530015E20D /* ViewA.swift */,
+				BCC3136129DF42620015E20D /* ViewB.swift */,
+			);
+			path = "Bottom Nav Bar";
+			sourceTree = "<group>";
+		};
+		BCC3136329DF50690015E20D /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3136529DF508B0015E20D /* ARModelData.json */,
+				BCC3136729DF508B0015E20D /* collectionData.json */,
+				BCC3136429DF508B0015E20D /* interviewData.json */,
+				BCC3136629DF508B0015E20D /* teamMemberData.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		BCE34A4429DF21BD00BDB95D = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +129,8 @@
 		BCE34A4F29DF21BD00BDB95D /* EmpathyBytesSkeletons */ = {
 			isa = PBXGroup;
 			children = (
+				BCC3136329DF50690015E20D /* JSON */,
+				BCC3135D29DF41EA0015E20D /* Bottom Nav Bar */,
 				BCE34A5029DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift */,
 				BCE34A5229DF21BD00BDB95D /* ContentView.swift */,
 				BCE34A5429DF21C000BDB95D /* Assets.xcassets */,
@@ -232,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE34A5829DF21C000BDB95D /* Preview Assets.xcassets in Resources */,
+				BCC3136B29DF508B0015E20D /* collectionData.json in Resources */,
+				BCC3136A29DF508B0015E20D /* teamMemberData.json in Resources */,
 				BCE34A5529DF21C000BDB95D /* Assets.xcassets in Resources */,
+				BCC3136929DF508B0015E20D /* ARModelData.json in Resources */,
+				BCC3136829DF508B0015E20D /* interviewData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE34A5329DF21BD00BDB95D /* ContentView.swift in Sources */,
+				BCC3136229DF42620015E20D /* ViewB.swift in Sources */,
 				BCE34A5129DF21BD00BDB95D /* EmpathyBytesSkeletonsApp.swift in Sources */,
+				BCC3135F29DF42530015E20D /* ViewA.swift in Sources */,
+				BCC3135C29DF41190015E20D /* BottomNavBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
